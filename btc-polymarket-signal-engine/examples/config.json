@@ -1,0 +1,9 @@
+{
+  "shares": 10,
+  "max_age_seconds": 3,
+  "min_seconds_remaining": 15,
+  "min_edge": 0.03,
+  "uncertainty_margin": 0.02,
+  "slippage_per_share": 0.005,
+  "max_cost": 10
+}

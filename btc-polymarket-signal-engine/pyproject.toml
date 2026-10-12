@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "btc-polymarket-signal-engine"
+version = "0.1.0"
+description = "Probability pricing and paper-trading research for BTC 15-minute prediction markets"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+btc-signal = "btc_signal.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

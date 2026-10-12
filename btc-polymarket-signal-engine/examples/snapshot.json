@@ -1,0 +1,42 @@
+{
+  "market_id": "synthetic-btc-15m-001",
+  "timestamp": 1791766000,
+  "window_start": 1791765600,
+  "window_end": 1791766500,
+  "spot": 100150,
+  "reference": 100000,
+  "reference_verified": true,
+  "price_source": "chainlink_btc_usd",
+  "price_timestamp": 1791765999,
+  "sigma_per_sqrt_second": 8e-05,
+  "books": {
+    "UP": {
+      "market_id": "synthetic-btc-15m-001",
+      "timestamp": 1791765999,
+      "fee_rate": 0.07,
+      "fee_exponent": 1,
+      "fee_verified": true,
+      "min_order_size": 5,
+      "asks": [
+        {
+          "price": 0.64,
+          "size": 100
+        }
+      ]
+    },
+    "DOWN": {
+      "market_id": "synthetic-btc-15m-001",
+      "timestamp": 1791765999,
+      "fee_rate": 0.07,
+      "fee_exponent": 1,
+      "fee_verified": true,
+      "min_order_size": 5,
+      "asks": [
+        {
+          "price": 0.38,
+          "size": 100
+        }
+      ]
+    }
+  }
+}
