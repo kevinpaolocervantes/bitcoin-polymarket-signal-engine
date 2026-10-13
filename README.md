@@ -6,7 +6,9 @@ The engine compares its estimated probability of Bitcoin finishing **Up** or **D
 
 Its purpose is not to force a prediction every 15 minutes. Its purpose is to identify potential pricing discrepancies and return **NO TRADE** when the estimated advantage is insufficient.
 
-> Status: Research prototype with paper trading only. This version does not execute real-money trades.
+> Status: Research prototype
+
+
 
 ## Core Idea
 
